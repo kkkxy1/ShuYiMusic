@@ -1,1 +1,1 @@
-<view class="home-layout"></view>
+<view class="home-layout"><view class="top"><top-navigation-bar u-i="b1048992-0" bind:__l="__l"></top-navigation-bar></view></view>

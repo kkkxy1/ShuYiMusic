@@ -1,0 +1,26 @@
+/* 水平间距 */
+/* 水平间距 */
+.bar-layout {
+  display: inline;
+}
+.bar-layout-title {
+  width: 100%;
+  white-space: nowrap;
+}
+.nav-item {
+  display: inline-block;
+  padding: 0 10px;
+}
+.bar-layout-search {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+}
+.search-box {
+  flex: 10;
+}
+.icon-box {
+  flex: 1;
+  text-align: center;
+}
