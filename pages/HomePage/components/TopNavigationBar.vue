@@ -29,6 +29,10 @@
 		display: inline;
 	}
 
+	.bar-layout-top {
+		height: 20px;
+	}
+
 	.bar-layout-title {
 		width: 100%;
 		white-space: nowrap;
@@ -44,6 +48,7 @@
 		align-items: center;
 		justify-content: end;
 		width: 100%;
+		height: 50px;
 	}
 
 	.search-box {
