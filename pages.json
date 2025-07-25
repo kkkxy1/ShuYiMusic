@@ -39,6 +39,76 @@
 		{
 			"navigationBarTitleText" : "搜索"
 		}
+	},
+	{
+		"path" : "pages/ProfilePage/Collect/Collect",
+		"style" : 
+		{
+			"navigationBarTitleText" : "收藏"
+		}
+	},
+	{
+		"path" : "pages/ProfilePage/Local/Local",
+		"style" : 
+		{
+			"navigationBarTitleText" : "本地"
+		}
+	},
+	{
+		"path" : "pages/ProfilePage/Voice/Voice",
+		"style" : 
+		{
+			"navigationBarTitleText" : "有声"
+		}
+	},
+	{
+		"path" : "pages/ProfilePage/Cart/Cart",
+		"style" : 
+		{
+			"navigationBarTitleText" : "已购"
+		}
+	},
+	{
+		"path" : "pages/ProfilePage/Wallet/Wallet",
+		"style" : 
+		{
+			"navigationBarTitleText" : "提现"
+		}
+	},
+	{
+		"path" : "pages/ProfilePage/Vip/Vip",
+		"style" : 
+		{
+			"navigationBarTitleText" : "会员"
+		}
+	},
+	{
+		"path" : "pages/ProfilePage/Shop/Shop",
+		"style" : 
+		{
+			"navigationBarTitleText" : "装扮"
+		}
+	},
+	{
+		"path" : "pages/ProfilePage/Calendar/Calendar",
+		"style" : 
+		{
+			"navigationBarTitleText" : "日签"
+		}
+	},
+	{
+		"path" : "pages/ProfilePage/Massage/Massage",
+		"style" : 
+		{
+			"navigationBarTitleText" : "消息"
+		}
+	},
+	{
+		"path" : "pages/ProfilePage/Setting/Setting",
+		"style" : 
+		{
+			"navigationBarTitleText" : "设置"
+		}
 	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

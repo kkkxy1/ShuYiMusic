@@ -3,13 +3,20 @@
 		<view class="my">
 			我的
 		</view>
-	 <uni-icons class="message-icon" type="email" size="30"></uni-icons>
-	<uni-icons class="setting-icon" type="gear" size="30"></uni-icons>
+		<view >
+			<uni-icons class="message-icon" type="email" size="30" @click="goToMessagePage"></uni-icons>
+		</view>
+		
+	<view >
+		<uni-icons class="setting-icon" type="gear" size="30" @click="goToSettingPage"></uni-icons>
+	</view>
+		
+	
 	</view>
 	<view class="container">
 		<view class="searchpic">
 			<view class="search-icon">
-			  <icon type="search" size="18" color="#999"/>
+					<icon type="search" size="18" color="#999"/>
 			</view>
 			<input 
 				type="text"  
@@ -29,38 +36,55 @@
 			<text class="fan">关注</text>
 		</view>
 		<view class="wallet-container">
-			<uni-icons class="wallet-icon" type="wallet-filled" size="20"></uni-icons>
-			<text class="wallet-text">提现</text>
+			<navigator url="/pages/ProfilePage/Wallet/Wallet">
+				<uni-icons class="wallet-icon" type="wallet-filled" size="20"></uni-icons>
+				<text class="wallet-text">提现</text>
+			</navigator>
+			
 		</view>
 		<view class="vipfill-container">
-			<uni-icons class="vipfill-icon" type="vip-filled" size="20"></uni-icons>
-			<text class="vipfill-text">会员</text>
+			<navigator url="/pages/ProfilePage/Vip/Vip">
+				<uni-icons class="vipfill-icon" type="vip-filled" size="20"></uni-icons>
+			    <text class="vipfill-text">会员</text>
+			</navigator>
 		</view>
 		<view class="shop-container">
-			<uni-icons class="shop-icon" type="shop-filled" size="20"></uni-icons>
-			<text class="shop-text">装扮</text>
+			<navigator url="/pages/ProfilePage/Shop/Shop">
+				<uni-icons class="shop-icon" type="shop-filled" size="20"></uni-icons>
+			    <text class="shop-text">装扮</text>
+			</navigator>
 		</view>
 		<view class="calendar-container">
-			<uni-icons class="calendar-icon" type="calendar-filled" size="20"></uni-icons>
-			<text class="calendar-text">日签</text>
+			<navigator url="/pages/ProfilePage/Calendar/Calendar">
+				<uni-icons class="calendar-icon" type="calendar-filled" size="20"></uni-icons>
+			    <text class="calendar-text">日签</text>
+			</navigator>
 		</view>
 	</view>
 	
 	<view class="box2">
 		<view class="collect-container">
-			<uni-icons class="collect-icon" type="heart-filled" size="30"></uni-icons>
+			<navigator url="/pages/ProfilePage/Collect/Collect">
+					<uni-icons class="collect-icon" type="heart-filled" size="30"></uni-icons>
+			</navigator>
 			<text class="collect-text">收藏</text>
 		</view>
 		<view class="local-container">
+			<navigator url="/pages/ProfilePage/Local/Local">
 				<uni-icons class="local-icon" type="download-filled" size="30"></uni-icons>
+			</navigator>
 				<text class="local-text">本地</text>
 		</view>
 		<view class="voice-container">
-			<uni-icons class="voice-icon" type="mic-filled" size="30"></uni-icons>
+			<navigator url="/pages/ProfilePage/Voice/Voice">
+				<uni-icons class="voice-icon" type="mic-filled" size="30"></uni-icons>
+			</navigator>
 			<text class="voice-text">有声</text>
 		</view>
 		<view class="cart-container">
-			<uni-icons class="cart-icon" type="cart-filled" size="30"></uni-icons>
+			<navigator url="/pages/ProfilePage/Cart/Cart">
+					<uni-icons class="cart-icon" type="cart-filled" size="30"></uni-icons>
+			</navigator>
 			<text class="cart-text">已购</text>
 		</view>
 	</view>
@@ -68,7 +92,20 @@
 </template>
 
 <script>
-	
+	export default {
+		methods: {
+			goToMessagePage() {
+				uni.navigateTo({
+					url: '/pages/ProfilePage/Massage/Massage'
+				});
+			},
+			goToSettingPage() {
+				uni.navigateTo({
+					url: '/pages/ProfilePage/Setting/Setting'
+				});
+			}
+		}
+	}
 </script>
 
 <style>
