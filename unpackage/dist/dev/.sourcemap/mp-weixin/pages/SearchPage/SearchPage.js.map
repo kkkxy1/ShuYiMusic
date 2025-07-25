@@ -1,1 +1,0 @@
-{"version":3,"file":"SearchPage.js","sources":["../../HBuilderX/plugins/uniapp-cli-vite/uniPage:/cGFnZXMvU2VhcmNoUGFnZS9TZWFyY2hQYWdlLnZ1ZQ"],"sourcesContent":["import MiniProgramPage from 'D:/shujiaapp/ShuYiMusic/pages/SearchPage/SearchPage.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;AACA,GAAG,WAAW,eAAe;"}

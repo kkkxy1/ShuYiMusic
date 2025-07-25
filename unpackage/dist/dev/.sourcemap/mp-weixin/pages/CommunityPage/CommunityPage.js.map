@@ -1,1 +1,0 @@
-{"version":3,"file":"CommunityPage.js","sources":["../../HBuilderX/plugins/uniapp-cli-vite/uniPage:/cGFnZXMvQ29tbXVuaXR5UGFnZS9Db21tdW5pdHlQYWdlLnZ1ZQ"],"sourcesContent":["import MiniProgramPage from 'D:/shujiaapp/ShuYiMusic/pages/CommunityPage/CommunityPage.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;AACA,GAAG,WAAW,eAAe;"}
