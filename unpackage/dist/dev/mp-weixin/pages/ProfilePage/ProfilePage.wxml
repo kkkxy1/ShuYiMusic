@@ -1,1 +1,0 @@
-<view class="header"><view class="my"> 我的 </view><text class="message-icon">✉️</text><text class="setting-icon">⚙️</text></view><view class="container"><view class="searchpic"><view class="search-icon"><icon type="search" size="18" color="#999"/></view><input type="text" placeholder="请输入内容" class="search-input" placeholder-class="placeholder"/></view></view>
