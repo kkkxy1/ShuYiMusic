@@ -2,7 +2,42 @@
 	"pages": [{
 		"path": "pages/index/index",
 		"style": {
-			"navigationBarTitleText": "首页"
+			"navigationBarTitleText": "登录"
+		}
+	},
+	{
+		"path" : "pages/HomePage/HomePage",
+		"style" : 
+		{
+			"navigationBarTitleText" : "首页"
+		}
+	},
+	{
+		"path" : "pages/LivePage/LivePage",
+		"style" : 
+		{
+			"navigationBarTitleText" : "直播"
+		}
+	},
+	{
+		"path" : "pages/CommunityPage/CommunityPage",
+		"style" : 
+		{
+			"navigationBarTitleText" : "社区"
+		}
+	},
+	{
+		"path" : "pages/ProfilePage/ProfilePage",
+		"style" : 
+		{
+			"navigationBarTitleText" : "我的"
+		}
+	},
+	{
+		"path" : "pages/SearchPage/SearchPage",
+		"style" : 
+		{
+			"navigationBarTitleText" : "搜索"
 		}
 	}],
 	"globalStyle": {
