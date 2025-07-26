@@ -144,6 +144,42 @@
 		{
 			"navigationBarTitleText" : "已播音乐"
 		}
+	},
+	{
+		"path" : "pages/ProfilePage/Zijiangedan/Zijiangedan",
+		"style" : 
+		{
+			"navigationBarTitleText" : "自建歌单"
+		}
+	},
+	{
+		"path" : "pages/ProfilePage/Shoucanggedan/Shoucanggedan",
+		"style" : 
+		{
+			"navigationBarTitleText" : "收藏歌单"
+		}
+	},
+	{
+		"path" : "pages/ProfilePage/Add/Add",
+		"style" : 
+		{
+			"navigationBarTitleText" : "新建"
+		}
+	},
+	{
+		"path" : "pages/ProfilePage/Gedandaoru/Gedandaoru",
+		"style" : 
+		{
+			"navigationBarTitleText" : "歌单导入"
+		}
+	},
+	{
+		"path" : "pages/ProfilePage/Zijianheshoucang/Zijianheshoucang",
+		"style" : 
+		{
+			"navigationBarTitleText" : "自建歌单|收藏歌单\r
+	\t\t"
+		}
 	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

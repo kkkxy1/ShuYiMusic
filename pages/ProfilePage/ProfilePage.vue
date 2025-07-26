@@ -146,8 +146,37 @@
 		
     </scroll-view>
   </view>
-
 		
+	<view class="box5">
+		<navigator url="/pages/ProfilePage/Zijiangedan/Zijiangedan">
+			自建歌单
+		</navigator>
+	</view>
+		
+	<view class="box6">
+		<navigator url="/pages/ProfilePage/Shoucanggedan/Shoucanggedan">
+			收藏歌单
+		</navigator>
+	</view>	
+	
+	<view class="icon1">
+		<navigator url="/pages/ProfilePage/Add/Add">
+			<uni-icons class="plusempty-icon" type="plusempty" size="15"></uni-icons>
+		</navigator>
+	</view>
+	
+	<view class="icon2">
+		<navigator url="/pages/ProfilePage/Gedandaoru/Gedandaoru">
+			<uni-icons class="upload-icon" type="upload" size="15"></uni-icons>
+		</navigator>	
+	</view>
+	
+	<view class="icon3">
+		<navigator url="/pages/ProfilePage/Zijianheshoucang/Zijianheshoucang">
+			<uni-icons class="forward-icon2" type="forward" size="15"></uni-icons>
+		</navigator>
+		
+	</view>
 </template>
 
 <script setup>
@@ -471,6 +500,53 @@
 	    object-fit: cover; 
 	}
 	
+	.box5{
+		width: 19%;
+		padding: 10px;
+		box-sizing: border-box;
+		margin-top: -4px;
+		margin-left: 12px;
+		font-family: "黑体";
+		font-size: 7px;
+	}
 	
+	.box6{
+		width: 19%;
+		padding: 10px;
+		box-sizing: border-box;
+		margin-top: -34px;
+		margin-left: 95px;
+		font-family: "黑体";
+		font-size: 7px;
+	}
 	
+	.icon1{
+		width: 9%;
+		padding: 10px;
+		box-sizing: border-box;
+		margin-top: -34px;
+		margin-left: 250px;
+		font-family: "黑体";
+		font-weight: bold;
+	}
+	
+	.icon2{
+		width: 9%;
+		padding: 10px;
+		box-sizing: border-box;
+		margin-top: -37px;
+		margin-left: 290px;
+		font-family: "黑体";
+		font-weight: bold;
+	}
+	
+	.icon3{
+		width: 9%;
+		padding: 10px;
+		box-sizing: border-box;
+		margin-top: -38px;
+		margin-left: 330px;
+		font-family: "黑体";
+		font-weight: bold;
+	}
 </style>
