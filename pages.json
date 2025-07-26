@@ -109,6 +109,42 @@
 		{
 			"navigationBarTitleText" : "设置"
 		}
+	},
+	{
+		"path" : "pages/ProfilePage/Exit/Exit",
+		"style" : 
+		{
+			"navigationBarTitleText" : "退出"
+		}
+	},
+	{
+		"path" : "pages/ProfilePage/Smallvip/Smallvip",
+		"style" : 
+		{
+			"navigationBarTitleText" : "绿钻"
+		}
+	},
+	{
+		"path" : "pages/ProfilePage/Medal/Medal",
+		"style" : 
+		{
+			"navigationBarTitleText" : "勋章"
+		}
+	},
+	{
+		"path" : "pages/ProfilePage/Zuijinbofang/Zuijinbofang",
+		"style" : 
+		{
+			"navigationBarTitleText" : "最近播放"
+		}
+	},
+	{
+		"path" : "pages/ProfilePage/Yiboyinyue/Yiboyinyue",
+		"style" : 
+		{
+			"navigationBarTitleText" : "已播音乐\r
+	\t\t"
+		}
 	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

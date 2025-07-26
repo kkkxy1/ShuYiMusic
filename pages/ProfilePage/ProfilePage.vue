@@ -25,7 +25,11 @@
 			<view class="user-container">
 				<image src="/static/头像.jpg" mode="aspectFill" class="circle"></image>
 				<text class="user">用户名</text>
-				<uni-icons class="exit-icon" type="home-filled" size="14"></uni-icons>
+				
+				<navigator url="/pages/ProfilePage/Exit/Exit">
+					<uni-icons class="exit-icon" type="home-filled" size="14"></uni-icons>
+				</navigator>
+
 				<uni-icons class="vip-icon" type="vip" size="16"></uni-icons>
 				<uni-icons class="medal-icon" type="medal" size="16"></uni-icons>
 				<text class="fan">关注</text>
@@ -72,12 +76,14 @@
 				</navigator>
 				<text class="local-text">本地</text>
 			</view>
+			
 			<view class="voice-container">
 				<navigator url="/pages/ProfilePage/Voice/Voice">
 					<uni-icons class="voice-icon" type="mic-filled" size="30"></uni-icons>
 				</navigator>
 				<text class="voice-text">有声</text>
 			</view>
+			
 			<view class="cart-container">
 				<navigator url="/pages/ProfilePage/Cart/Cart">
 					<uni-icons class="cart-icon" type="cart-filled" size="30"></uni-icons>
@@ -86,20 +92,67 @@
 			</view>
 		</view>
 	</view>
+	
+	<view class="box3">
+		<navigator url="/pages/ProfilePage/Zuijinbofang/Zuijinbofang">
+			最近播放
+			<uni-icons class="right-icon" type="right" size="15"></uni-icons>
+		</navigator>
+	</view>
+	
+  <view class="box4">
+    <scroll-view class="music" scroll-x="true" @scroll="scroll" scroll-left="120" style="white-space: nowrap;">
+        <view id="demo1" class="Yinyue">
+			<navigator url="/pages/ProfilePage/Yiboyinyue/Yiboyinyue">
+				<image src="/static/mp1.png" mode="aspectFill"></image>
+			</navigator>            
+        </view>
+		
+        <view id="demo2" class="Yinyue">
+			<navigator url="/pages/ProfilePage/Yiboyinyue/Yiboyinyue">
+				<image src="/static/mu2.jpg" mode="aspectFill"></image>
+			</navigator>
+        </view>
+		
+		<view id="demo3" class="Yinyue">
+			<navigator url="/pages/ProfilePage/Yiboyinyue/Yiboyinyue">
+				<image src="/static/mu3.jpg" mode="aspectFill"></image>
+			</navigator>
+		</view>
+		
+		<view id="demo4" class="Yinyue">
+			<navigator url="/pages/ProfilePage/Yiboyinyue/Yiboyinyue">
+				<image src="/static/mu4.jpg" mode="aspectFill"></image>
+			</navigator>
+		</view>
+		
+		<view id="demo5" class="Yinyue">
+			<navigator url="/pages/ProfilePage/Yiboyinyue/Yiboyinyue">
+				<image src="/static/mu5.jpg" mode="aspectFill"></image>
+			</navigator>
+		</view>
+		
+		<view id="demo6" class="Yinyue">
+			<navigator url="/pages/ProfilePage/Yiboyinyue/Yiboyinyue">
+				<image src="/static/mu6.jpg" mode="aspectFill"></image>
+			</navigator>
+		</view>
+		
+		<view id="demo7" class="Yinyue">
+			<navigator url="/pages/ProfilePage/Yiboyinyue/Yiboyinyue">
+				<image src="/static/头像.jpg" mode="aspectFill"></image>
+			</navigator>
+		</view>
+		
+    </scroll-view>
+  </view>
+
+		
 </template>
 
 <script setup>
-	function goToMessagePage() {
-		uni.navigateTo({
-			url: '/pages/ProfilePage/Massage/Massage'
-		});
-	}
-
-	function goToSettingPage() {
-		uni.navigateTo({
-			url: '/pages/ProfilePage/Setting/Setting'
-		});
-	}
+	
+	
 </script>
 
 <style>
@@ -115,7 +168,7 @@
 	.icons {
 		display: flex;
 		flex-direction: row;
-		padding: 0px 10px 0 0;
+		padding: 0px 14px 0 0;
 	}
 
 	.my {
@@ -366,4 +419,58 @@
 		margin-top: 4px;
 		font-family: "黑体";
 	}
+	
+	.box3{
+		font-family: "黑体";
+		margin-top: 90px;
+		margin-left: 20px;
+	}
+	
+	.right-icon{
+		font-weight: bold;
+		margin-left: 250px;
+	}
+	
+	.box4 {
+	    width: 100%;
+	    padding: 10px;
+	    box-sizing: border-box;
+	    margin-top: 4px;
+		margin-left: 6px;
+	}
+	
+	.music {
+	    width: 100%;
+	    white-space: nowrap; 
+	}
+	
+	.Yinyue {
+	    display: inline-block;
+	    width: 90px; 
+	    height: 90px; 
+	    margin-right: 10px; 
+	    border-radius: 8px; 
+	    overflow: hidden; 
+	}
+	
+	.Yinyue navigator {
+	    display: block; 
+	    width: 100%;
+	    height: 100%;
+	}
+	
+	.Yinyue:active {
+	  opacity: 0.8;
+	  transform: scale(0.98);
+	  transition: all 0.1s ease;
+	}
+	
+	.Yinyue image {
+	    width: 100%;
+	    height: 100%;
+	    object-fit: cover; 
+	}
+	
+	
+	
 </style>
