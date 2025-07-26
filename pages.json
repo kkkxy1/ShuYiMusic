@@ -177,8 +177,7 @@
 		"path" : "pages/ProfilePage/Zijianheshoucang/Zijianheshoucang",
 		"style" : 
 		{
-			"navigationBarTitleText" : "自建歌单|收藏歌单\r
-	\t\t"
+			"navigationBarTitleText" : "自建歌单|收藏歌单"
 		}
 	}],
 	"globalStyle": {

@@ -21,14 +21,13 @@
 				<input type="text" placeholder="请输入内容" class="search-input" placeholder-class="placeholder" />
 			</view>
 		</view>
+		<navigator url="/pages/ProfilePage/Exit/Exit">
+			<uni-icons class="exit-icon" type="home-filled" size="14"></uni-icons>
+		</navigator>
 		<view class="box">
 			<view class="user-container">
 				<image src="/static/头像.jpg" mode="aspectFill" class="circle"></image>
 				<text class="user">用户名</text>
-				
-				<navigator url="/pages/ProfilePage/Exit/Exit">
-					<uni-icons class="exit-icon" type="home-filled" size="14"></uni-icons>
-				</navigator>
 
 				<uni-icons class="vip-icon" type="vip" size="16"></uni-icons>
 				<uni-icons class="medal-icon" type="medal" size="16"></uni-icons>
@@ -288,15 +287,14 @@
 	}
 
 	.exit-icon {
-		position: relative;
-		margin-top: -30px;
-		margin-left: 10px;
+		position: absolute;
+		padding: 20px 0px 0px 130px;
 	}
 
 	.vip-icon {
 		position: relative;
 		margin-top: 10px;
-		margin-left: -56px;
+		margin-left: -36px;
 	}
 
 	.medal-icon {
