@@ -142,8 +142,7 @@
 		"path" : "pages/ProfilePage/Yiboyinyue/Yiboyinyue",
 		"style" : 
 		{
-			"navigationBarTitleText" : "已播音乐\r
-	\t\t"
+			"navigationBarTitleText" : "已播音乐"
 		}
 	}],
 	"globalStyle": {
